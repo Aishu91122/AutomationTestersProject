@@ -7,10 +7,18 @@ public class TestBase {
 	
 	static WebDriver driver;
 	
-	public static void setUp()
+	public static void setUp(String browserName)
 	{
-	driver = new ChromeDriver(); 
+	 
+	if (browserName.equalsIgnoreCase("chrome"))
+		 
+	{
+	 
+	driver = new ChromeDriver();
+	 
 	}
+	 
+	
 	
 
 }
