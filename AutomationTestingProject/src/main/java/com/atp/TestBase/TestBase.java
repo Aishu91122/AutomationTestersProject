@@ -17,8 +17,9 @@ public class TestBase {
 	driver = new ChromeDriver();
 	 
 	}
-	 
+	}
+}
 	
 	
 
-}
+
